@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="home"> 首页</string>
+    <string name="cart"> 购物车</string>
+    <string name="message"> 消息</string>
+    <string name="Incremental">升序</string>
+    <string name="Decrement">降序</string>
+    <string name="my">我的</string>
+    <string name="other">其他</string>
+    <string name="empty"> </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

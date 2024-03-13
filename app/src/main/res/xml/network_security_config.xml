@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <!-- Trust preinstalled CAs -->
+            <certificates src="system" />
+            <!-- Optionally trust user added CAs -->
+            <!-- <certificates src="user" /> -->
+        </trust-anchors>
+    </base-config>
+    <!-- 添加允许明文通信的特定域名配置 -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">web.juhe.cn</domain>
+    </domain-config>
+</network-security-config>
